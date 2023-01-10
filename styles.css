@@ -1,0 +1,107 @@
+/* COOLORS COLOR PALLETE
+--indigo-dye: #08415cff;
+--madder-lake: #cc2936ff;
+--mango-tango: #fc8c47ff;
+--corn: #ffea64ff;
+--platinum: #eaeaeaff; */
+
+
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: .05rem;
+    
+}
+
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 1.1rem;
+    
+}
+
+p:hover {
+    color: #eaeaeaff;
+}
+
+a {
+    color: #eaeaeaff;
+     text-decoration: none;
+}
+
+a:hover {
+    color: #fc8c47ff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #eaeaeaff; 
+}
+
+.avatar {
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 1.5rem;
+}
+
+.avatar:hover{
+    transform: rotate(20deg);
+    border: 5px solid #cc2936ff;
+}
+
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px 40px 45px 40px;
+    text-align: left;
+    background: #08415cff;
+    color: #fc8c47ff;
+    border-bottom: 6px solid #ffea64ff;
+    border-right: 6px solid #ffea64ff;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px #fc8c47ff;
+    
+    display: flex;
+    justify-content: space-around;
+    gap: .75rem;
+        
+    animation-name: colorchange;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+
+@keyframes colorchange {
+  from {background-color: #08415cff;}
+  to {background-color: #095071;}
+  
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
